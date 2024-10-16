@@ -1,0 +1,68 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(51, 39, 61);
+}
+
+h2
+{
+    color: rgb(178, 154, 243);
+}
+ul
+{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+ul li
+{
+    cursor:pointer;
+    background-color: rgb(37, 9, 48);
+    color: azure;
+    padding: 10px;
+}
+ul li:hover
+{
+    background-color: rgb(49, 49, 49);
+}
+ul li.checked
+{
+    background-color: rgb(9, 94, 37);
+    text-decoration: line-through;
+}
+input
+{
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 36%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+.addButton
+{
+    padding: 105px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+.addButton:hover
+{
+    background-color: rgb(184, 17, 184);
+}
+.addButton:active
+{
+    background-color: rgb(112, 22, 112);
+}
+.close
+{
+    position: absolute;
+    margin-left: 30px;
+}
